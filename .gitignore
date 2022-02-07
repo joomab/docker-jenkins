@@ -7,7 +7,11 @@
 !/jobs
 !/.gitignore
 !/*.xml
-
+!Dockerfile
+!/jenkins_home/*
+!./jenkins_home/*
+!jenkins_home/*
+!jenkins_home
 #ignore all files in jobs subdirectories except for folders
 #note: git doesn't track folders, only file content
 jobs/**
